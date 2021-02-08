@@ -1,6 +1,6 @@
 package agetestapp;
 
-public class AgeException extends Exception
+public class AgeException extends RuntimeException
 {
 	public AgeException(String a)
 	{
